@@ -1,0 +1,2 @@
+require 'resque/tasks'
+require './create_file'
