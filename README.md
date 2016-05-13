@@ -9,4 +9,4 @@ resque-status
 
 Then, you must start a worker in root of this folder:
 
-TERM_CHD=1 QUEUE=resque_test rake resque:work &
+TERM_CHD=1 QUEUE=resque_test,statused rake resque:work &

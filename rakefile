@@ -1,2 +1,3 @@
 require 'resque/tasks'
 require './create_file'
+require './sleep_job'
